@@ -11,9 +11,7 @@ How well those variables describe the bike demands
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
 We are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
@@ -40,8 +38,6 @@ However, it's important to consider the domain knowledge to determine whether th
 - seaborn - version 0.12.2
 - sklearn - version 1.0.2
 - statsmodel - version 0.13.2
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 
 
