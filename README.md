@@ -33,13 +33,13 @@ However, it's important to consider the domain knowledge to determine whether th
 
 
 ## Technologies Used
-Python - version 3.7.3
-Pandas - version 1.3.4
-numpy - version 1.21.5
-matplotlib - version 3.1.3
-seaborn - version 0.12.2
-sklearn - version 1.0.2
-statsmodel - version 0.13.2
+- Python - version 3.7.3
+- Pandas - version 1.3.4
+- numpy - version 1.21.5
+- matplotlib - version 3.1.3
+- seaborn - version 0.12.2
+- sklearn - version 1.0.2
+- statsmodel - version 0.13.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
