@@ -1,5 +1,10 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike Sharing System
+BoomBikes wants to understand the factors on which the demand for these shared bikes depends. They want to understand the factors affecting the demand for these shared bikes in the American market.
+
+The company wants to know:
+
+Which variables are significant in predicting the demand for shared bikes.
+How well those variables describe the bike demands
 
 
 ## Table of Contents
@@ -11,42 +16,34 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+We are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The top 5 variables that are seen effecting and benefitting the Bike Rental count are as follows:
+Year
+Spring season
+Temperature
+Mist
+Sun
+We see that the R2 score from the train data is 0.82 and from the test data it is 0.80.
+Overall, an R2 score of 0.80 on the test data is a positive sign.
+It indicates that the model is performing well in terms of explaining the variation in the target variable and that it is not overfitting (i.e., it generalizes well to new data).
+However, it's important to consider the domain knowledge to determine whether these R2 scores are satisfactory for our application.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+Python - version 3.7.3
+Pandas - version 1.3.4
+numpy - version 1.21.5
+matplotlib - version 3.1.3
+seaborn - version 0.12.2
+sklearn - version 1.0.2
+statsmodel - version 0.13.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@vignesh4757] - feel free to contact me!
